@@ -7,10 +7,10 @@ import { ArrowReturnRight } from "react-bootstrap-icons";
 
 function Projects() {
   return (
-    <section className="projects">
+    <section className="projects mt-5">
       <Container>
         <h1>Projects</h1>
-        <Row className="first">
+        <Row className="first mt-auto pt-3">
           <Col>
             <h2>Treasures Auction House</h2>
             <p>
@@ -26,7 +26,7 @@ function Projects() {
             <p><ArrowReturnRight /> Bootstrap</p>
             <p><ArrowReturnRight /> Sass</p>
           </Col>
-          <Col className="col2"><img src={treasures} alt="" /></Col>
+          <Col className="col2 mt-1 mb-1"><img src={treasures} alt="" /></Col>
         </Row>
         <Row>
           <Col>
@@ -45,7 +45,7 @@ function Projects() {
             <p><ArrowReturnRight /> Styled-Components</p>
             <p><ArrowReturnRight /> Zustand for state management</p>
           </Col>
-          <Col className="col2"><img src={dings}  alt="" /></Col>
+          <Col className="col2 mt-1 mb-1"><img src={dings}  alt="" /></Col>
         </Row>
         <Row>
           <Col>
@@ -63,7 +63,7 @@ function Projects() {
             <p><ArrowReturnRight /> React hook form and yup</p>
             <p><ArrowReturnRight /> Styled-Components</p>
           </Col>
-          <Col className="col2"><img src={holidaze}  alt="" /></Col>
+          <Col className="col2 mt-1 mb-1"><img src={holidaze}  alt="" /></Col>
         </Row>
       </Container>
     </section>

@@ -129,24 +129,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 /*Projects*/
 
-.projects {
-  margin-top: 2rem;
-}
 .projects img {
     width: 100%;
 }
 
 .projects .row {
-  margin-top: auto;
   padding-top: 9rem;
   padding-bottom: 9rem;
-}
-.projects .first.row {
-  padding-top: 1rem;
-}
-.projects .col2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
 }

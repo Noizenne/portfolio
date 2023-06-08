@@ -13,8 +13,8 @@ function Banner() {
           <Col xs={12} md={6} xl={7}>
             <div className="bannerItem">
               <p>Hi, welcome to my portfolio</p>
-              <h2 className="tagline">My name is Karla Mae Rabe</h2>
-              <h3 className="tagline">And I'm a Frontend Developer student</h3>
+              <h1 className="tagline">My name is Karla Mae Rabe</h1>
+              <h2 className="tagline">And I'm a Frontend Developer student</h2>
             </div>
           </Col>
         </Row>
