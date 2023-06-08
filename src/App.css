@@ -31,12 +31,22 @@ h6 {
   line-height: none;
 }
 
+h1 {
+  font-size: 28px !important;
+  font-family: 'Press Start 2P', cursive;
+}
 h2 {
   font-size: 24px !important;
+  font-family: 'Press Start 2P', cursive;
 }
 
 h3 {
   font-size: 20px !important;
+  font-family: 'Press Start 2P', cursive;
+}
+h4 {
+  font-size: 18px !important;
+  font-family: 'Press Start 2P', cursive;
 }
 
 /*Nav*/
@@ -47,6 +57,7 @@ nav.navbar {
   top: 0;
   z-index: 2000;
   transition: 0.3 ease-in-out;
+  background-color: white;
 }
 
 nav.navbar.scrolled {
@@ -101,15 +112,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 /*Banner*/
 
 .banner {
-  margin-top: 15%;
+  margin-top: 10%;
 
   .me {
     width: 90%;
     border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
-  }
-
-  .tagline {
-    font-family: 'Press Start 2P', cursive;
   }
 }
 
@@ -120,3 +127,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   }
 }
 
+/*Projects*/
+
+.projects {
+  margin-top: 2rem;
+}
+.projects img {
+    width: 100%;
+}
+
+.projects .row {
+  margin-top: auto;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+.projects .first.row {
+  padding-top: 1rem;
+}
+.projects .col2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}

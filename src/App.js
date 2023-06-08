@@ -2,6 +2,7 @@ import './App.css';
 import Navigation from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Banner from './components/Banner';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Navigation />
       </header>
       <Banner />
+      <Projects />
     </div>
   );
 }
