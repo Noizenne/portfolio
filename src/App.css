@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,600&family=Press+Start+2P&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,600&family=Ubuntu+Mono&display=swap');
 /*Default*/
 * {
   margin: 0;
@@ -32,21 +31,22 @@ h6 {
 }
 
 h1 {
-  font-size: 28px !important;
-  font-family: 'Press Start 2P', cursive;
+  font-size: 32px !important;
+  font-family: 'Ubuntu Mono', monospace;
 }
 h2 {
-  font-size: 24px !important;
-  font-family: 'Press Start 2P', cursive;
+  font-size: 26px !important;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 h3 {
-  font-size: 20px !important;
-  font-family: 'Press Start 2P', cursive;
+  font-size: 22px !important;
+  font-family: 'Ubuntu Mono', monospace;
 }
+
 h4 {
   font-size: 18px !important;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 /*Nav*/
@@ -65,14 +65,14 @@ nav.navbar.scrolled {
 }
 
 nav.navbar a.navbar-brand {
+  font-size: 30px;
   width: 10%;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 nav.navbar nav.navbar .nav-link.navbar-link {
   font-size: 18px;
   padding: 0 20px;
-  opacity: 0.75;
 }
 nav.navbar nav.navbar .nav-link.navbar-link:hover,
 nav.navbar nav.navbar .nav-link.navbar-link:active {
@@ -103,6 +103,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   height: 2px;
 }
 
+nav.navbar .navbar-collapse .show {
+  display: flex;
+  justify-content: end;
+}
+
+nav.navbar .navbar-collapse a {
+  display: flex;
+  justify-content: end;
+  margin: 3px;
+}
+
+nav.navbar .navbar-collapse a:hover {
+  color: rgb(174, 0, 255);
+  
+}
+
+nav.navbar .navbar-collapse a:hover {
+  transition: 0.3s ease-in;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 500px)  {
   nav.navbar a.navbar-brand {
     font-size: 15px;
@@ -112,6 +133,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 /*Banner*/
 
 .banner {
+  height: 100vh;
   margin-top: 10%;
 
   .me {
@@ -130,16 +152,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 /*Projects*/
 
 .projects .col2 {
-  display: flex;
-  align-items: center;
+  padding-top: 5%;
 }
 .projects img {
     width: 100%;
 }
 
 .projects .row {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
+  height: 100vh;
 }
 
 button {
@@ -157,10 +177,29 @@ button:hover {
   transition: 0.3s ease-in-out;
 }
 
+@media screen and (max-width: 767px)  {
+  
+  .projects .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/*Contact*/
+
 .contact a:hover {
   font-size: 20px;
   transition: 0.2s ease-in-out;
 }
 .contact p {
   font-size: 100%;
+}
+
+@media screen and (max-width: 767px)  {
+  h1 {
+   text-align: center;
+  }
+  .contact .row {
+    display: flex;
+    flex-direction: column;
+  }
 }
