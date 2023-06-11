@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,600&family=Ubuntu+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,600&family=Ubuntu+Mono&display=swap");
 /*Default*/
 * {
   margin: 0;
@@ -32,21 +32,21 @@ h6 {
 
 h1 {
   font-size: 32px !important;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: "Ubuntu Mono", monospace;
 }
 h2 {
   font-size: 26px !important;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: "Ubuntu Mono", monospace;
 }
 
 h3 {
   font-size: 22px !important;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: "Ubuntu Mono", monospace;
 }
 
 h4 {
   font-size: 18px !important;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: "Ubuntu Mono", monospace;
 }
 
 /*Nav*/
@@ -67,7 +67,7 @@ nav.navbar.scrolled {
 nav.navbar a.navbar-brand {
   font-size: 30px;
   width: 10%;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: "Ubuntu Mono", monospace;
 }
 
 nav.navbar nav.navbar .nav-link.navbar-link {
@@ -116,7 +116,6 @@ nav.navbar .navbar-collapse a {
 
 nav.navbar .navbar-collapse a:hover {
   color: rgb(174, 0, 255);
-  
 }
 
 nav.navbar .navbar-collapse a:hover {
@@ -124,7 +123,7 @@ nav.navbar .navbar-collapse a:hover {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 500px)  {
+@media screen and (max-width: 500px) {
   nav.navbar a.navbar-brand {
     font-size: 15px;
   }
@@ -135,15 +134,53 @@ nav.navbar .navbar-collapse a:hover {
 .banner {
   height: 100vh;
   margin-top: 10%;
+  animation: banner 2s ease;
 
   .me {
     width: 90%;
     border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+    
+  }
+  
+}
+@keyframes banner {
+  0% {
+    transform: translateX(-600px);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    transform: translateX(-68px);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateX(-28px);
+    animation-timing-function: ease-in;
+  }
+  90% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: translateX(-8px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
   }
 }
 
-@media screen and (max-width: 767px)  {
-  
+@media screen and (max-width: 767px) {
   .bannerItem {
     text-align: center;
   }
@@ -155,7 +192,7 @@ nav.navbar .navbar-collapse a:hover {
   padding-top: 5%;
 }
 .projects img {
-    width: 100%;
+  width: 100%;
 }
 
 .projects .row {
@@ -177,8 +214,7 @@ button:hover {
   transition: 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 767px)  {
-  
+@media screen and (max-width: 767px) {
   .projects .row {
     display: flex;
     flex-direction: column;
@@ -194,9 +230,9 @@ button:hover {
   font-size: 100%;
 }
 
-@media screen and (max-width: 767px)  {
+@media screen and (max-width: 767px) {
   h1 {
-   text-align: center;
+    text-align: center;
   }
   .contact .row {
     display: flex;
