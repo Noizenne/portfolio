@@ -105,12 +105,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 nav.navbar .navbar-collapse .show {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 nav.navbar .navbar-collapse a {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   margin: 3px;
 }
 
