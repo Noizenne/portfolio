@@ -9,17 +9,12 @@ import { BoxArrowInUpRight } from "react-bootstrap-icons";
 
 function Projects() {
 
-  const border = {
-    transition: "0.3s ease-in-out",
-    border: "1px solid rgb(174, 0, 255)",
-  };
-
   return (
     <section className="projects mt-5" id="projects">
       <Container>
         <h1>Projects</h1>
-        <Row className="first mt-auto pt-3">
-          <Col onScroll={border}>
+        <Row className="first mt-auto pt-3" >
+          <Col>
             <h2>Treasures Auction House</h2>
             <p>
               An auction site is looking to launch a website where users can add
