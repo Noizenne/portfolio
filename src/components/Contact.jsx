@@ -6,7 +6,7 @@ import { EnvelopeFill } from "react-bootstrap-icons";
 
 function Contact() {
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <Container>
         <Row className="d-flex justify-content-center">
           <Col>
