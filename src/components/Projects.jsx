@@ -8,14 +8,15 @@ import { Github } from "react-bootstrap-icons";
 import { BoxArrowInUpRight } from "react-bootstrap-icons";
 
 function Projects() {
-
+  
   return (
     <section className="projects mt-5" id="projects">
       <Container>
         <h1>Projects</h1>
-        <Row className="first mt-auto pt-3" >
+        <Row className="first mt-auto pt-3">
+        
           <Col>
-            <h2>Treasures Auction House</h2>
+            <h2 className="treasures">Treasures Auction House</h2>
             <p>
               An auction site is looking to launch a website where users can add
               items to be bid on and bid on items other users have put up for
@@ -55,10 +56,10 @@ function Projects() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <button className="p-2 m-1">
-                <BoxArrowInUpRight />
-                View Project
-              </button>
+                <button className="p-2 m-1">
+                  <BoxArrowInUpRight />
+                  View Project
+                </button>
               </a>
             </div>
           </Col>
@@ -68,7 +69,7 @@ function Projects() {
         </Row>
         <Row>
           <Col>
-            <h2>Dings</h2>
+            <h2 className="dings">Dings</h2>
             <p>
               An e-commerce website where customers can create, find and add
               products to the cart.
@@ -113,10 +114,10 @@ function Projects() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <button className="p-2 m-1">
-                <BoxArrowInUpRight />
-                View Project
-              </button>
+                <button className="p-2 m-1">
+                  <BoxArrowInUpRight />
+                  View Project
+                </button>
               </a>
             </div>
           </Col>
@@ -126,7 +127,7 @@ function Projects() {
         </Row>
         <Row>
           <Col>
-            <h2>Holidaze</h2>
+            <h2 className="holidaze">Holidaze</h2>
             <p>
               Holidaze is an accommodation website where you can view, post and
               book specific venues.
@@ -168,10 +169,10 @@ function Projects() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <button className="p-2 m-1">
-                <BoxArrowInUpRight />
-                View Project
-              </button>
+                <button className="p-2 m-1">
+                  <BoxArrowInUpRight />
+                  View Project
+                </button>
               </a>
             </div>
           </Col>
